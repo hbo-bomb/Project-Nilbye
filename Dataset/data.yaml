@@ -1,0 +1,4 @@
+names: [cow,nilgai,water buffalo, dog]
+nc: 4
+train: C:/yolov5/Dataset/train/images
+val: C:/yolov5/Dataset/val/images
