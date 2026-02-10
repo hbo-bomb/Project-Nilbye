@@ -12,8 +12,6 @@ As for the hardware, many electronic components and devices were procured to set
 
 <img width="496" height="552" alt="image" src="https://github.com/user-attachments/assets/82dc8c5c-83d3-4426-96ca-6aac1d51cc9e" />
 
-<img width="239" height="103" alt="Test_5" src="https://github.com/user-attachments/assets/7be20ae8-5ca6-488d-99af-47ff463aa614" />
-
 <img width="1826" height="972" alt="Screenshot from 2026-01-28 10-34-39" src="https://github.com/user-attachments/assets/ce23a43d-6d5c-4b0d-b696-56a3ee246afd" />
 
 <img width="1134" height="535" alt="Screenshot from 2025-11-04 10-22-34" src="https://github.com/user-attachments/assets/9df2e2e4-b595-4f8a-a0f0-6df93a86659a" />
@@ -21,9 +19,6 @@ As for the hardware, many electronic components and devices were procured to set
 <img width="1226" height="758" alt="Screenshot from 2025-09-09 16-19-10" src="https://github.com/user-attachments/assets/fbf4d133-cdf5-4221-92d2-288ae6b21d78" />
 
 <img width="1458" height="623" alt="image" src="https://github.com/user-attachments/assets/3dafeaf1-5b22-4639-ace8-560f9902c0ea" />
-
-
-
 
 Follow the instructions under the User Manual-Project Nilbye Prototype. The mnaual´s emphasis is on the 3 Phase for configuration:
 
