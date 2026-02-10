@@ -4,3 +4,6 @@ This repository contains all the source code for Project Nilbye´s Real Time Obj
 
 <img width="703" height="218" alt="image" src="https://github.com/user-attachments/assets/24997fc5-5bb4-4e86-b887-d8ac4fb213e6" />
 
+<img width="914" height="247" alt="image" src="https://github.com/user-attachments/assets/44e70f91-dc75-4e0a-8c9d-c8f2b8664950" />
+
+
