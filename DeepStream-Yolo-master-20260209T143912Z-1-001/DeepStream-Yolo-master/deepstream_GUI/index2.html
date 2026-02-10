@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nilbye Detection Prototype</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">NILBYE</div>
+    <h1>Nilbye Detection Prototype</h1>
+  </header>
+
+  <main class="layout">
+    <!-- LEFT COLUMN -->
+    <section class="col col-left">
+
+      <!-- DeepStream controls -->
+      <div class="card">
+        <h3>DeepStream</h3>
+        <div class="row gap">
+          <button id="btnStart" class="btn btn--primary">Start</button>
+          <button id="btnStop" class="btn">Stop</button>
+          <button id="btnRefresh" class="btn btn--ghost">Refresh</button>
+          <span id="runState" class="pill pill--muted">stopped</span>
+        </div>
+        <p class="hint">
+          Start/Stop the DeepStream pipeline defined in the backend.
+        </p>
+      </div>
+
+      <!-- Threshold + simulate -->
+      <div class="card">
+        <h3>Detection threshold</h3>
+        <div class="slider-row">
+          <input id="thresh" type="range" min="0" max="1" step="0.01" value="0.5" />
+          <div class="ticks">
+            <span>0.00</span><span>0.50</span><span>1.00</span>
+          </div>
+        </div>
+        <div class="row gap">
+          <button id="btnSim" class="btn btn--ghost">Simulate alert</button>
+        </div>
+        <p class="hint">
+          This slider filters what’s shown in the GUI. For actual detections
+          published by DeepStream, set the model/post-cluster threshold in your
+          <code>config_infer_primary_yolov8.txt</code>.
+        </p>
+      </div>
+
+      <!-- PTZ controls -->
+      <div class="card">
+        <h3>PTZ Controls</h3>
+
+        <div class="ptz-grid">
+          <button class="ptz btn-ico" data-code="LeftUp">↖</button>
+          <button class="ptz btn-ico" data-code="Up">▲</button>
+          <button class="ptz btn-ico" data-code="RightUp">↗</button>
+
+          <button class="ptz btn-ico" data-code="Left">◀</button>
+          <button class="ptz btn-ico" data-code="Stop">·</button>
+          <button class="ptz btn-ico" data-code="Right">▶</button>
+
+          <button class="ptz btn-ico" data-code="LeftDown">↙</button>
+          <button class="ptz btn-ico" data-code="Down">▼</button>
+          <button class="ptz btn-ico" data-code="RightDown">↘</button>
+        </div>
+
+        <div class="row gap wrap">
+          <button class="ptz-zoom btn btn--ghost" data-zoom="out">Zoom −</button>
+          <button class="ptz-zoom btn btn--ghost" data-zoom="in">Zoom +</button>
+          <label class="spacer"></label>
+          <label class="speed">Speed
+            <select id="ptzSpeed">
+              <option value="1">Speed 1</option>
+              <option value="2">Speed 2</option>
+              <option value="3" selected>Speed 3</option>
+              <option value="4">Speed 4</option>
+              <option value="5">Speed 5</option>
+              <option value="6">Speed 6</option>
+              <option value="7">Speed 7</option>
+              <option value="8">Speed 8</option>
+            </select>
+          </label>
+        </div>
+
+        <details class="cfg">
+          <summary>Configure camera (runtime)</summary>
+          <div class="grid-2">
+            <label>Host <input id="ptzHost" placeholder="192.168.188.108" /></label>
+            <label>Port <input id="ptzPort" type="number" value="80" /></label>
+            <label>Protocol
+              <select id="ptzProto">
+                <option value="http" selected>http</option>
+                <option value="https">https</option>
+              </select>
+            </label>
+            <label>Auth
+              <select id="ptzAuth">
+                <option value="digest" selected>digest</option>
+                <option value="basic">basic</option>
+              </select>
+            </label>
+            <label>User <input id="ptzUser" value="admin" /></label>
+            <label>Password <input id="ptzPass" type="password" placeholder="password" /></label>
+            <label>Channel <input id="ptzChan" type="number" value="1" /></label>
+            <label>Timeout (s) <input id="ptzTmo" type="number" value="4.0" step="0.5" /></label>
+          </div>
+          <div class="row gap">
+            <button id="btnSavePTZ" class="btn btn--primary">Save PTZ</button>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- RIGHT COLUMN -->
+    <section class="col col-right">
+
+      <!-- Light + Beep -->
+      <div class="card">
+        <div class="row gap wrap">
+          <div class="light-wrap">
+            <div id="strobe" class="light"></div>
+            <div class="light-label">Strobe</div>
+          </div>
+          <div class="beep-wrap">
+            <span id="beep" class="beep">BEEP</span>
+            <div class="light-label">Speaker</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detections -->
+      <div class="card">
+        <h3>Detections</h3>
+        <div id="detections" class="det-list"></div>
+      </div>
+
+      <!-- Logs -->
+      <div class="card">
+        <h3>Logs</h3>
+        <pre id="logs" class="logs"></pre>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js?v=7"></script>
+</body>
+</html>
+

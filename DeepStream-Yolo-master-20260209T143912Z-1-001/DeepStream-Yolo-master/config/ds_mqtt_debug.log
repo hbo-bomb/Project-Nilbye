@@ -1,0 +1,51 @@
+[mosq_mqtt_log_callback] Client (null) sending CONNECT
+[mosq_mqtt_log_callback] Client (null) received CONNACK (0)
+mqtt connection success; ready to send data
+Setting min object dimensions as 16x16 instead of 1x1 to support VIC compute mode.
+0:00:00.242662629 [31m10740[00m 0xaaab080ef580 [36mINFO   [00m [00m             nvinfer gstnvinfer.cpp:684:gst_nvinfer_logger:<primary_gie>[00m NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::deserializeEngineAndBackend() <nvdsinfer_context_impl.cpp:2092> [UID = 1]: deserialized trt engine from :/home/lain/DeepStream-Yolo-master/model_b1_gpu0_fp16.engine
+0:00:00.242747396 [31m10740[00m 0xaaab080ef580 [36mINFO   [00m [00m             nvinfer gstnvinfer.cpp:684:gst_nvinfer_logger:<primary_gie>[00m NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::generateBackendContext() <nvdsinfer_context_impl.cpp:2195> [UID = 1]: Use deserialized engine model: /home/lain/DeepStream-Yolo-master/model_b1_gpu0_fp16.engine
+0:00:00.251818643 [31m10740[00m 0xaaab080ef580 [36mINFO   [00m [00m             nvinfer gstnvinfer_impl.cpp:343:notifyLoadModelStatus:<primary_gie>[00m [UID 1]: Load new model:/home/lain/DeepStream-Yolo-master/config_infer_primary_yoloV8.txt sucessfully
+WARNING: [TRT]: Using an engine plan file across different models of devices is not recommended and is likely to affect performance or even cause errors.
+Implicit layer support has been deprecated
+INFO: [Implicit Engine Info]: layers num: 0
+
+
+Runtime commands:
+	h: Print this help
+	q: Quit
+
+	p: Pause
+	r: Resume
+
+NOTE: To expand a source in the 2D tiled display and view object details, left-click on the source.
+      To go back to the tiled display, right-click anywhere on the window.
+
+** INFO: <bus_callback:291>: Pipeline ready
+
+** INFO: <bus_callback:277>: Pipeline running
+
+NvMMLiteOpen : Block : BlockType = 261 
+NvMMLiteBlockCreate : Block : BlockType = 261 
+Opening in BLOCKING MODE 
+** INFO: <bus_callback:277>: Pipeline running
+
+
+**PERF:  FPS 0 (Avg)	
+**PERF:  26.42 (26.41)	
+**PERF:  25.03 (25.64)	
+**PERF:  24.94 (25.34)	
+**PERF:  24.97 (25.25)	
+**PERF:  25.05 (25.16)	
+**PERF:  25.06 (25.20)	
+**PERF:  24.93 (25.14)	
+**PERF:  24.99 (25.12)	
+**PERF:  25.05 (25.11)	
+**PERF:  24.84 (25.10)	
+**PERF:  25.16 (25.11)	
+Quitting
+nvstreammux: Successfully handled EOS for source_id=0
+[mosq_mqtt_log_callback] Client (null) sending PINGREQ
+[mosq_mqtt_log_callback] Client (null) received PINGRESP
+[mosq_mqtt_log_callback] Client (null) sending DISCONNECT
+mqtt disconnected
+App run successful
