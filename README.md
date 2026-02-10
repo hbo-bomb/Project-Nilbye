@@ -38,6 +38,8 @@ Integration of main backbone devices and peripheral components with solar energy
 
 To learn more about the training process see Back End Development for Project´s Nilbye Prototype Device.
 
+For any question please write to horacioserrano1989@gmail.com
+
 
 
 
