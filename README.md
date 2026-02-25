@@ -26,10 +26,23 @@ As for the hardware, many electronic components and devices were procured to set
 
 <img width="1075" height="634" alt="image" src="https://github.com/user-attachments/assets/afecef0a-d23e-4dcd-8849-3d4d474cfda0" />
 
+![IMG_4315](https://github.com/user-attachments/assets/dffb2090-102d-44a5-9bd1-92365b957e16)
+![IMG_4314](https://github.com/user-attachments/assets/27c57e95-f888-48e5-844c-e460bab925c8)
+![IMG_4313](https://github.com/user-attachments/assets/193206ec-eed7-4f23-af02-2aab033f236f)
+![IMG_4312](https://github.com/user-attachments/assets/47e4812f-b9ec-4269-be00-3c38e234ad84)
+![IMG_4311](https://github.com/user-attachments/assets/9bced7b1-af5e-4088-bcd2-7220a524f135)
+![IMG_4310](https://github.com/user-attachments/assets/63501aa3-97ca-4a9f-b5aa-acfe296b319b)
+![IMG_4309](https://github.com/user-attachments/assets/3c9d6357-2669-4cca-9e5d-5cc17e24fba5)
+![IMG_4308](https://github.com/user-attachments/assets/e7a1917e-5827-42dd-954a-e9a00695133f)
+![IMG_4307](https://github.com/user-attachments/assets/8633fa50-e81a-423c-8784-9e50c98ffe8d)
+![IMG_4306](https://github.com/user-attachments/assets/0b90c685-f27b-42a0-9bff-64a428e5bfb3)
+![IMG_4305](https://github.com/user-attachments/assets/bb1a93f7-79f5-41fe-85bc-bd499357b735)
+![IMG_4304](https://github.com/user-attachments/assets/1a929953-bacd-4dc7-ae61-f393e0cc0eed)
+![IMG_4303](https://github.com/user-attachments/assets/7f053a07-537a-4e48-bd4a-b27db23baf8b)
+![IMG_4302](https://github.com/user-attachments/assets/a8c46538-9c8c-419b-b5f5-8b24a691c7ac)
+![IMG_4301](https://github.com/user-attachments/assets/39494fb7-a4fa-47eb-aa9c-743a8c06960b)
+![IMG_4300](https://github.com/user-attachments/assets/d6c29fba-53c0-4ddd-87d0-859402bf5d6b)
 
-<video width="720" controls>
-  <source src="VID_20260219_135209.mp4" type="video/mp4">
-</video>
 
 https://github.com/user-attachments/assets/6462c805-9a4d-4592-8b6f-55bffaced68c
 
@@ -37,8 +50,10 @@ Follow the instructions under the User Manual-Project Nilbye Prototype. The mnau
 
 *Developer Mode:
 Network connectiviy, camera set up and model testing with API.
+
 *Headless Mode
-Headless control and autotstart enablement
+Headless control and autotstart enablement.
+
 *Integration with Energy Network
 Integration of main backbone devices and peripheral components with solar energy grid
 
