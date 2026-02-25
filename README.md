@@ -62,6 +62,8 @@ As for the hardware, many electronic components and devices were procured to set
 
 https://github.com/user-attachments/assets/5671d38b-ff99-40e3-aee1-07827341f0e2
 
+https://github.com/user-attachments/assets/2d7acaa1-1d51-4a65-bccd-d81acc694c2c
+
 Follow the instructions under the User Manual-Project Nilbye Prototype. The mnaual´s emphasis is on the 3 Phase for configuration:
 
 *Developer Mode:
