@@ -55,54 +55,69 @@ As for the hardware, many electronic components and devices were procured to set
   ![IMG_4313](https://github.com/user-attachments/assets/193206ec-eed7-4f23-af02-2aab033f236f)
 </p>
 
-![IMG_4312](https://github.com/user-attachments/assets/47e4812f-b9ec-4269-be00-3c38e234ad84)
+<p align="center">
+  ![IMG_4312](https://github.com/user-attachments/assets/47e4812f-b9ec-4269-be00-3c38e234ad84)
+</p>
 
+<p align="center">
+  ![IMG_4311](https://github.com/user-attachments/assets/9bced7b1-af5e-4088-bcd2-7220a524f135)
+</p>
 
-![IMG_4311](https://github.com/user-attachments/assets/9bced7b1-af5e-4088-bcd2-7220a524f135)
+<p align="center">
+  ![IMG_4310](https://github.com/user-attachments/assets/63501aa3-97ca-4a9f-b5aa-acfe296b319b)
+</p>
 
+<p align="center">
+  ![IMG_4309](https://github.com/user-attachments/assets/3c9d6357-2669-4cca-9e5d-5cc17e24fba5)
+</p>
 
-![IMG_4310](https://github.com/user-attachments/assets/63501aa3-97ca-4a9f-b5aa-acfe296b319b)
+<p align="center">
+  ![IMG_4308](https://github.com/user-attachments/assets/e7a1917e-5827-42dd-954a-e9a00695133f)
+</p>
 
+<p align="center">
+  ![IMG_4307](https://github.com/user-attachments/assets/8633fa50-e81a-423c-8784-9e50c98ffe8d)
+</p>
 
-![IMG_4309](https://github.com/user-attachments/assets/3c9d6357-2669-4cca-9e5d-5cc17e24fba5)
+<p align="center">
+  ![IMG_4306](https://github.com/user-attachments/assets/0b90c685-f27b-42a0-9bff-64a428e5bfb3)
+</p>
 
+<p align="center">
+  ![IMG_4305](https://github.com/user-attachments/assets/bb1a93f7-79f5-41fe-85bc-bd499357b735)
+</p>
 
-![IMG_4308](https://github.com/user-attachments/assets/e7a1917e-5827-42dd-954a-e9a00695133f)
+<p align="center">
+  ![IMG_4304](https://github.com/user-attachments/assets/1a929953-bacd-4dc7-ae61-f393e0cc0eed)
+</p>
 
+<p align="center">
+  ![IMG_4303](https://github.com/user-attachments/assets/7f053a07-537a-4e48-bd4a-b27db23baf8b)
+</p>
 
+<p align="center">
+  ![IMG_4302](https://github.com/user-attachments/assets/a8c46538-9c8c-419b-b5f5-8b24a691c7ac)
+</p>
 
-![IMG_4307](https://github.com/user-attachments/assets/8633fa50-e81a-423c-8784-9e50c98ffe8d)
+<p align="center">
+  ![IMG_4301](https://github.com/user-attachments/assets/39494fb7-a4fa-47eb-aa9c-743a8c06960b)
+</p>
 
+<p align="center">
+  ![IMG_4300](https://github.com/user-attachments/assets/d6c29fba-53c0-4ddd-87d0-859402bf5d6b)
+</p>
 
-![IMG_4306](https://github.com/user-attachments/assets/0b90c685-f27b-42a0-9bff-64a428e5bfb3)
+<p align="center">
+  ![Demo_1](https://github.com/user-attachments/assets/d05e909c-569f-46d3-b860-83ece19768f1)
+</p>
 
+<p align="center">
+  https://github.com/user-attachments/assets/5671d38b-ff99-40e3-aee1-07827341f0e2
+</p>
 
-![IMG_4305](https://github.com/user-attachments/assets/bb1a93f7-79f5-41fe-85bc-bd499357b735)
-
-
-![IMG_4304](https://github.com/user-attachments/assets/1a929953-bacd-4dc7-ae61-f393e0cc0eed)
-
-
-![IMG_4303](https://github.com/user-attachments/assets/7f053a07-537a-4e48-bd4a-b27db23baf8b)
-
-
-
-![IMG_4302](https://github.com/user-attachments/assets/a8c46538-9c8c-419b-b5f5-8b24a691c7ac)
-
-
-![IMG_4301](https://github.com/user-attachments/assets/39494fb7-a4fa-47eb-aa9c-743a8c06960b)
-
-
-![IMG_4300](https://github.com/user-attachments/assets/d6c29fba-53c0-4ddd-87d0-859402bf5d6b)
-
-
-![Demo_1](https://github.com/user-attachments/assets/d05e909c-569f-46d3-b860-83ece19768f1)
-
-
-https://github.com/user-attachments/assets/5671d38b-ff99-40e3-aee1-07827341f0e2
-
-
-https://github.com/user-attachments/assets/2d7acaa1-1d51-4a65-bccd-d81acc694c2c
+<p align="center">
+  https://github.com/user-attachments/assets/2d7acaa1-1d51-4a65-bccd-d81acc694c2c
+</p>
 
 Follow the instructions under the User Manual-Project Nilbye Prototype. The mnaual´s emphasis is on the 3 Phase for configuration:
 
