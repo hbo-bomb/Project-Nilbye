@@ -10,8 +10,9 @@ This repository contains all the source code for Project Nilbye´s Real Time Obj
 The Project Nilbye first-stage prototype is an experimental device developed by the Werk:Raum team in collaboration with Welthungerhilfe. The prototype uses open-source software and a DeepStream pipeline to deploy both trained and pre-trained YOLO models via RTSP with a PTZ camera, all executed with the versatile and compact NVIDIA Jetson Orin Nano. This pipeline enables real-time object detection, all controlled smoothly via a customizable API that supports a graphical user interface GUI
 As for the hardware, many electronic components and devices were procured to set the require solar energy network for field testing and deployment. In addition, electronics were connected to provide proper input for the detected images in the form of ultrasound, activated by signals from the Jetson and communicated via the API via MQTT. The aforementioned energy network is meant to power the devices and components placed on the main case and the PTZ camera. 
 
-<img width="496" height="552" alt="image" src="https://github.com/user-attachments/assets/82dc8c5c-83d3-4426-96ca-6aac1d51cc9e" />
-
+<p align="center">
+  <img width="496" height="552" alt="image" src="https://github.com/user-attachments/assets/82dc8c5c-83d3-4426-96ca-6aac1d51cc9e" />
+</p>
 <img width="1826" height="972" alt="Screenshot from 2026-01-28 10-34-39" src="https://github.com/user-attachments/assets/ce23a43d-6d5c-4b0d-b696-56a3ee246afd" />
 
 <img width="1134" height="535" alt="Screenshot from 2025-11-04 10-22-34" src="https://github.com/user-attachments/assets/9df2e2e4-b595-4f8a-a0f0-6df93a86659a" />
