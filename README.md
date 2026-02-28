@@ -43,9 +43,9 @@ As for the hardware, many electronic components and devices were procured to set
   <img width="1075" height="634" alt="image" src="https://github.com/user-attachments/assets/afecef0a-d23e-4dcd-8849-3d4d474cfda0" />
 </p>
 
-<p align="center">
+
   ![IMG_4315](https://github.com/user-attachments/assets/dffb2090-102d-44a5-9bd1-92365b957e16)
-</p>
+
 
 <p align="center">
   ![IMG_4314](https://github.com/user-attachments/assets/27c57e95-f888-48e5-844c-e460bab925c8)
