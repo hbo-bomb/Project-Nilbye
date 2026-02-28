@@ -23,12 +23,8 @@ As for the hardware, many electronic components and devices were procured to set
 - [Base Code](./Base%20Code)
 - [Enhanced Code](./Enhanced%20Code)
 
-### 🖥 Prototype & System Development
-- [Prototype Device Documentation](./Prototype%20Device)
-- [Back End Development Documentation](./Back%20End%20Development%20for%20Project%20Nilbye´s%20Prototype)
-- [Energy Grid Demo Video](./Energy%20Grid%20Demo%201.mp4)
 
-### 📸 Visual Documentation
+### 📸 Documentation
 - [Screenshots](./Screenshots/Screenshots)
 - [Screencasts](./Screencasts/Screencasts)
 
