@@ -24,8 +24,8 @@ As for the hardware, many electronic components and devices were procured to set
 
 
 ### 📸 Test Documentation
-- [Screenshots](./Test%20Documentation/Screenshots/Screenshots)
-- [Screencasts](./Test%20Documentation/Screencasts/Screencasts)
+- [Test Photos](./Test%20Documentation/Screenshots/Screenshots)
+- [Test Videos](./Test%20Documentation/Screencasts/Screencasts)
 
 <p align="center">
   <img width="496" height="552" alt="image" src="https://github.com/user-attachments/assets/82dc8c5c-83d3-4426-96ca-6aac1d51cc9e" />
