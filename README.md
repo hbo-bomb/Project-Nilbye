@@ -10,22 +10,25 @@ This repository contains all the source code for Project Nilbye´s Real Time Obj
 The Project Nilbye first-stage prototype is an experimental device developed by the Werk:Raum team in collaboration with Welthungerhilfe. The prototype uses open-source software and a DeepStream pipeline to deploy both trained and pre-trained YOLO models via RTSP with a PTZ camera, all executed with the versatile and compact NVIDIA Jetson Orin Nano. This pipeline enables real-time object detection, all controlled smoothly via a customizable API that supports a graphical user interface GUI
 As for the hardware, many electronic components and devices were procured to set the require solar energy network for field testing and deployment. In addition, electronics were connected to provide proper input for the detected images in the form of ultrasound, activated by signals from the Jetson and communicated via the API via MQTT. The aforementioned energy network is meant to power the devices and components placed on the main case and the PTZ camera. 
 
-## 📂 Repository Structure
+### 🚀 Application Main Code
+- [DeepStream-Yolo (Main Deployment)](./DeepStream-Yolo/)
+- [DeepStream-Yolo-master](./DeepStream-Yolo-master/)
+- [DeepStream-Yolo_2](./DeepStream-Yolo_2/)
+- [DeepStream-Yolo_local_test](./DeepStream-Yolo_local_test/)
 
-### 🚀 Deployment & DeepStream Integration
-- [DeepStream-Yolo (Main Deployment)](./DeepStream-Yolo/DeepStream-Yolo)
-- [DeepStream-Yolo-master](./DeepStream-Yolo-master/DeepStream-Yolo-master)
-- [DeepStream-Yolo_2](./DeepStream-Yolo_2/DeepStream-Yolo_2)
-- [DeepStream-Yolo Local Test](./DeepStream-Yolo_local_test/DeepStream-Yolo_local_test)
+### 📂 Project Documentation
+- [Project Documentation](./Project%20Documentation/)
 
 ### 🧠 Model Training & Dataset
-- [Dataset (Git LFS)](./Dataset)
-
-
+- [Dataset (Git LFS)](./Dataset/)
 
 ### 📸 Test Documentation
-- [Test Photos](./Test%20Documentation/Screenshots/Screenshots)
-- [Test Videos](./Test%20Documentation/Screencasts/Screencasts)
+- [Screenshots](./Screenshots/)
+- [Screencasts](./Screencasts/)
+
+### 💻 Legacy Code
+- [Base Code](./Base%20Code/)
+- [Enhanced Code](./Enhanced%20Code/)
 
 <p align="center">
   <img width="496" height="552" alt="image" src="https://github.com/user-attachments/assets/82dc8c5c-83d3-4426-96ca-6aac1d51cc9e" />
