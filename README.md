@@ -145,6 +145,72 @@ Integration of main backbone devices and peripheral components with solar energy
 
 To learn more about the training process see Back End Development for Project´s Nilbye Prototype Device.
 
+### Open-Source Frameworks and Dependencies
+
+### NVIDIA DeepStream SDK
+Used for real-time inference acceleration and video pipeline deployment on NVIDIA Jetson hardware.
+
+### NVIDIA Corporation.
+DeepStream SDK.
+https://developer.nvidia.com/deepstream-sdk
+
+### DeepStream-YOLO Integration
+Community implementation enabling YOLO models to run within DeepStream pipelines.
+
+### Marcos Lucianops.
+DeepStream-Yolo.
+https://github.com/marcoslucianops/DeepStream-Yolo
+Ultralytics YOLOv8
+Used for training, exporting, and evaluating YOLO-based object detection models.
+
+### Ultralytics.
+Ultralytics YOLOv8.
+https://github.com/ultralytics/ultralytics
+ONNX (Open Neural Network Exchange)
+Used for exporting trained models into interoperable format for DeepStream deployment.
+
+### ONNX Community.
+Open Neural Network Exchange (ONNX).
+https://github.com/onnx/onnx
+FastAPI
+Used to implement the REST API for system control and monitoring.
+
+### Sebastián Ramírez.
+FastAPI.
+https://github.com/fastapi/fastapi
+Uvicorn
+ASGI server used to run the FastAPI application.
+
+### Uvicorn.
+https://github.com/encode/uvicorn
+Eclipse Paho MQTT Client
+Used for MQTT-based detection event communication.
+
+### Eclipse Foundation.
+Paho MQTT Python Client.
+https://github.com/eclipse/paho.mqtt.python
+Jetson.GPIO
+Used for hardware-level GPIO control on NVIDIA Jetson platforms.
+
+### Jetson.GPIO.
+https://github.com/NVIDIA/jetson-gpio
+Tailscale
+Used for secure remote networking and headless device management.
+
+### Tailscale Inc.
+Tailscale.
+https://github.com/tailscale/tailscale
+HLS.js
+Used for browser-based HTTP Live Streaming playback.
+
+### Video Dev Community.
+HLS.js.
+https://github.com/video-dev/hls.js
+
+### Disclaimer
+This project integrates and adapts open-source components. All original rights remain with their respective authors. Project Nilbye focuses on system integration, deployment architecture, and applied embedded AI development.
+
+
 For any question please write to horacioserrano1989@gmail.com
 
 
