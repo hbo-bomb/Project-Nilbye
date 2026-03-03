@@ -1,7 +1,7 @@
 ## Architecture Diagram
 
 ```mermaid
-flowchart LR
+flowchart TB
 
   classDef net fill:#e1f5fe,stroke:#0288d1,stroke-width:1px,color:#0b2b3a;
   classDef gpu fill:#ede7f6,stroke:#5e35b1,stroke-width:1px,color:#231942;
