@@ -98,7 +98,7 @@ flowchart TB
 
   CTRL[Decision Logic]
   ACT[Signal Actuator]
-  HW[Physical Output Buzzer LED Relay]
+  HW[Physical Output Ultrasound]
 
   CTRL --> ACT --> HW
 ```
