@@ -13,10 +13,11 @@ The diagram below shows the overall system structure.
 ```mermaid
 flowchart TB
 
-  classDef ext fill:#e3f2fd,stroke:#1e88e5,stroke-width:1px;
-  classDef core fill:#ede7f6,stroke:#5e35b1,stroke-width:1px;
-  classDef backend fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px;
-  classDef hw fill:#fff8e1,stroke:#f9a825,stroke-width:1px;
+  %% ===== White / Black / Orange Theme =====
+  classDef ext fill:#ffffff,stroke:#000000,stroke-width:1.5px,color:#000000;
+  classDef core fill:#ffe5cc,stroke:#ff6600,stroke-width:2px,color:#000000;
+  classDef backend fill:#f2f2f2,stroke:#000000,stroke-width:1.5px,color:#000000;
+  classDef hw fill:#ff6600,stroke:#000000,stroke-width:2px,color:#ffffff;
 
   CAM[RTSP Camera]
   GPU[GPU DeepStream Pipeline]
@@ -40,6 +41,8 @@ flowchart TB
 ```mermaid
 flowchart TB
 
+  classDef core fill:#ffe5cc,stroke:#ff6600,stroke-width:2px,color:#000000;
+
   SRC[RTSP Ingest]
   MUX[nvstreammux batch resize 1280]
   INF[YOLOv8 Detection Primary GIE]
@@ -53,6 +56,8 @@ flowchart TB
   SPLIT --> DISP
   SPLIT --> RTSP
   SPLIT --> META
+
+  class SRC,MUX,INF,OSD,SPLIT,DISP,RTSP,META core
 ```
 
 ### Responsibilities
@@ -71,6 +76,8 @@ flowchart TB
 ```mermaid
 flowchart TB
 
+  classDef backend fill:#f2f2f2,stroke:#000000,stroke-width:1.5px,color:#000000;
+
   META[MQTT Events ds events]
   BRK[MQTT Broker 1883]
   API[API Service MQTT Subscriber]
@@ -79,6 +86,8 @@ flowchart TB
 
   META --> BRK --> API --> CTRL
   API --> LOG
+
+  class META,BRK,API,CTRL,LOG backend
 ```
 
 ### Responsibilities
@@ -96,11 +105,15 @@ flowchart TB
 ```mermaid
 flowchart TB
 
+  classDef hw fill:#ff6600,stroke:#000000,stroke-width:2px,color:#ffffff;
+
   CTRL[Decision Logic]
   ACT[Signal Actuator]
-  HW[Physical Output Ultrasound]
+  HW[Physical Output Buzzer LED Relay]
 
   CTRL --> ACT --> HW
+
+  class CTRL,ACT,HW hw
 ```
 
 ### Responsibilities
