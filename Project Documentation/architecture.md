@@ -10,11 +10,6 @@ The system processes real-time RTSP video, performs YOLOv8-based object detectio
 
 The diagram below shows the high-level system structure.
 
-**Jump to details:**
-- [GPU DeepStream Pipeline](#gpu-deepstream-pipeline)
-- [Backend Services](#backend-services)
-- [Actuation Layer](#actuation-layer)
-
 ```mermaid
 flowchart TB
 
