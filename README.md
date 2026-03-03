@@ -3,7 +3,7 @@
 
 # About 
 
-This repository contains all the source code for Project Nilbye´s Real Time Object Detection and Deterrence System and its prototype device. The system uses YOLO where Version 5 and Version 8 were compared extensively. The original Dataset is included with several previously use with the addition of the most important training results and detection tests. A demonstration pre-trained YOLOv8 Model is used on the folder DeepStream-Yolo-master. Other important documents can also be found. 
+This repository contains all the source code for project Nilbye´s real time object detection and deterrence system and its prototype device. The system uses YOLO where Version 5 and Version 8 were compared extensively. The original Dataset is included with several previously use with the addition of the most important training results and detection tests. A demonstration pre-trained YOLOv8 Model is used on the folder DeepStream-Yolo-master. Other important documents can also be found. 
 
 # Project-Nilbye Prototype
 
