@@ -22,7 +22,7 @@ As for the hardware, many electronic components and devices were procured to set
 ### Test Documentation
 - [Test videos and photos](./Test%20documentation/)
 
-### Legacy Code
+### Open CV code
 - [Legacy Code](./Legacy%20Code/)
 
 <p align="center">
