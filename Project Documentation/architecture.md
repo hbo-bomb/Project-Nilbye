@@ -60,13 +60,13 @@ flowchart TB
   class ACT hw
   class LOG store
 
-  click SRC "#gpu-deepstream-pipeline"
-  click MUX "#gpu-deepstream-pipeline"
-  click INF "#gpu-deepstream-pipeline"
-  click OSD "#gpu-deepstream-pipeline"
+  click SRC "Project%20Documentation/architecture.md#gpu-deepstream-pipeline"
+  click MUX "Project%20Documentation/architecture.md#gpu-deepstream-pipeline"
+  click INF "Project%20Documentation/architecture.md#gpu-deepstream-pipeline"
+  click OSD "Project%20Documentation/architecture.md#gpu-deepstream-pipeline"
 
-  click BROKER "#backend-services"
-  click API "#backend-services"
-  click CTRL "#backend-services"
+  click BROKER "Project%20Documentation/architecture.md#backend-services"
+  click API "Project%20Documentation/architecture.md#backend-services"
+  click CTRL "Project%20Documentation/architecture.md#backend-services"
 
-  click ACT "#actuation-layer"
+  click ACT "Project%20Documentation/architecture.md#actuation-layer"
