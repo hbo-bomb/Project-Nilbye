@@ -8,8 +8,12 @@ The system processes real-time RTSP video, performs YOLOv8-based object detectio
 
 ## Architecture Diagram
 
-The diagram below shows the high-level system structure.  
-Click on major components to jump to detailed explanations.
+The diagram below shows the high-level system structure.
+
+**Jump to details:**
+- [GPU DeepStream Pipeline](#gpu-deepstream-pipeline)
+- [Backend Services](#backend-services)
+- [Actuation Layer](#actuation-layer)
 
 ```mermaid
 flowchart TB
@@ -59,14 +63,3 @@ flowchart TB
   class BROKER,API,CTRL svc
   class ACT hw
   class LOG store
-
-  click SRC "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
-  click MUX "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
-  click INF "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
-  click OSD "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
-
-  click BROKER "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#backend-services" "Open backend details"
-  click API "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#backend-services" "Open backend details"
-  click CTRL "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#backend-services" "Open backend details"
-
-  click ACT "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#actuation-layer" "Open actuation details"
