@@ -60,13 +60,13 @@ flowchart TB
   class ACT hw
   class LOG store
 
-  click SRC "architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
-  click MUX "architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
-  click INF "architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
-  click OSD "architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
+  click SRC "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
+  click MUX "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
+  click INF "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
+  click OSD "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#gpu-deepstream-pipeline" "Open GPU pipeline details"
 
-  click BROKER "architecture.md#backend-services" "Open backend details"
-  click API "architecture.md#backend-services" "Open backend details"
-  click CTRL "architecture.md#backend-services" "Open backend details"
+  click BROKER "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#backend-services" "Open backend details"
+  click API "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#backend-services" "Open backend details"
+  click CTRL "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#backend-services" "Open backend details"
 
-  click ACT "architecture.md#actuation-layer" "Open actuation details"
+  click ACT "https://github.com/hbo-bomb/Project-Nilbye/blob/main/Project%20Documentation/architecture.md#actuation-layer" "Open actuation details"
