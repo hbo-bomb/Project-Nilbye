@@ -31,38 +31,100 @@ flowchart TB
   class GPU core
   class BE backend
   class ACT hw
+```
 
-  flowchart TB
+---
+
+## GPU DeepStream Pipeline
+
+```mermaid
+flowchart TB
 
   SRC[RTSP Ingest]
-  MUX[nvstreammux\n(batch + resize 1280)]
-  INF[YOLOv8 Detection\n(Primary GIE)]
-  OSD[OSD Overlay\n(Bounding Boxes)]
+  MUX[nvstreammux (batch + resize 1280)]
+  INF[YOLOv8 Detection (Primary GIE)]
+  OSD[OSD Overlay (Bounding Boxes)]
   SPLIT{Output Split}
   DISP[Local Display]
   RTSP[RTSP Output 8554]
-  META[MQTT Events\n(ds/events)]
+  META[MQTT Events (ds/events)]
 
   SRC --> MUX --> INF --> OSD --> SPLIT
   SPLIT --> DISP
   SPLIT --> RTSP
   SPLIT --> META
+```
 
-  flowchart TB
+### Responsibilities
+
+- Ingest RTSP video stream  
+- Resize and batch frames for GPU inference  
+- Run YOLOv8 object detection  
+- Generate structured detection metadata  
+- Render bounding boxes on output frames  
+- Publish detection events to MQTT topic `ds/events`  
+
+---
+
+## Backend Services
+
+```mermaid
+flowchart TB
 
   META[MQTT Events ds/events]
   BRK[MQTT Broker 1883]
-  API[API Service\n(MQTT Subscriber)]
+  API[API Service (MQTT Subscriber)]
   CTRL[Decision Logic]
   LOG[(Logs)]
 
   META --> BRK --> API --> CTRL
   API --> LOG
+```
 
-  flowchart TB
+### Responsibilities
+
+- Receive detection events from DeepStream  
+- Parse structured payload data  
+- Apply decision rules  
+- Trigger actuation logic  
+- Log results for monitoring and analysis  
+
+---
+
+## Actuation Layer
+
+```mermaid
+flowchart TB
 
   CTRL[Decision Logic]
   ACT[Signal Actuator]
-  HW[Physical Output\n(Buzzer / LED / Relay)]
+  HW[Physical Output (Buzzer / LED / Relay)]
 
   CTRL --> ACT --> HW
+```
+
+### Responsibilities
+
+- Convert software decisions into physical signals  
+- Activate deterrence mechanisms  
+- Provide real-world system response  
+
+---
+
+## System Design Philosophy
+
+The Nilbye architecture separates responsibilities into distinct layers:
+
+- **Perception Layer** – Real-time GPU-based computer vision  
+- **Communication Layer** – MQTT-based event distribution  
+- **Decision Layer** – Backend rule evaluation  
+- **Actuation Layer** – Physical system response  
+
+This modular separation improves:
+
+- Maintainability  
+- Scalability  
+- Debugging clarity  
+- Deployment flexibility  
+
+The entire system runs locally on the NVIDIA Jetson Orin Nano, enabling fully embedded, real-time operation.
