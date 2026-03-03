@@ -41,13 +41,13 @@ flowchart TB
 flowchart TB
 
   SRC[RTSP Ingest]
-  MUX[nvstreammux (batch + resize 1280)]
-  INF[YOLOv8 Detection (Primary GIE)]
-  OSD[OSD Overlay (Bounding Boxes)]
+  MUX[nvstreammux batch resize 1280]
+  INF[YOLOv8 Detection Primary GIE]
+  OSD[OSD Overlay Bounding Boxes]
   SPLIT{Output Split}
   DISP[Local Display]
   RTSP[RTSP Output 8554]
-  META[MQTT Events (ds/events)]
+  META[MQTT Events ds events]
 
   SRC --> MUX --> INF --> OSD --> SPLIT
   SPLIT --> DISP
@@ -62,7 +62,7 @@ flowchart TB
 - Run YOLOv8 object detection  
 - Generate structured detection metadata  
 - Render bounding boxes on output frames  
-- Publish detection events to MQTT topic `ds/events`  
+- Publish detection events to MQTT topic ds events  
 
 ---
 
@@ -71,11 +71,11 @@ flowchart TB
 ```mermaid
 flowchart TB
 
-  META[MQTT Events ds/events]
+  META[MQTT Events ds events]
   BRK[MQTT Broker 1883]
-  API[API Service (MQTT Subscriber)]
+  API[API Service MQTT Subscriber]
   CTRL[Decision Logic]
-  LOG[(Logs)]
+  LOG[Logs]
 
   META --> BRK --> API --> CTRL
   API --> LOG
@@ -98,7 +98,7 @@ flowchart TB
 
   CTRL[Decision Logic]
   ACT[Signal Actuator]
-  HW[Physical Output (Buzzer / LED / Relay)]
+  HW[Physical Output Buzzer LED Relay]
 
   CTRL --> ACT --> HW
 ```
